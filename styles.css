@@ -1,0 +1,61 @@
+.container {
+    width: 90%;
+}
+
+.navbar-brand img{
+    width: 150px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para el carrusel */
+.carousel {
+    max-width: 100%; /* Ancho máximo del carrusel */
+    margin: 0 auto; /* Centra el carrusel horizontalmente */
+}
+
+
+/* Estilos para las imágenes del carrusel */
+.carousel-item img {
+    max-width: 100%; /* Ajusta el ancho máximo de las imágenes al 100% del contenedor */
+    height: 500px; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+}
+     /* Desactiva el subrayado predeterminado */
+     a {
+        text-decoration: none;
+        color:white;
+    }
+    /* Agrega resaltado al pasar el mouse */
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .card img{
+        max-width: 100%;
+        height: 400px;
+    }
+
+    /* Estilos para iPad en orientación horizontal */
+@media (max-width: 768px) {
+    /* Agrega tus estilos específicos para iPad aquí */
+}
+
+/* Estilos para PC de escritorio */
+@media (min-width: 1024px) {
+    /* Agrega tus estilos específicos para PC de escritorio aquí */
+}
+
+/* Estilos para dispositivos móviles en orientación vertical */
+@media (max-width: 576px) {
+    /* Agrega tus estilos específicos para dispositivos móviles aquí */
+}
+
+/* Estilos para dispositivos móviles, incluyendo iPhone 12 Pro y Samsung Galaxy S20 Ultra */
+@media (max-width: 480px) {
+    /* Agrega tus estilos específicos para dispositivos móviles aquí */
+}
+.zoomable-element {
+    transform: scale(1.2); /* Escala al 120% */
+}
